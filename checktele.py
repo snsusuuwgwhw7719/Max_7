@@ -260,7 +260,7 @@ async def _(event):
 lD: @P_i_0 = @FCF300
 lD : @Max985 
     ''')
-                    await event.client.send_message("@i_R_Y", f''' ⌲ تم الصيد (@{username})
+                    await event.client.send_message("@isandreew", f''' ⌲ تم الصيد (@{username})
 ꩜ 𝙼𝙰𝚇 ↬  {trys}
 lD: @P_i_0 = @P8_PP 
 الصيد : @FCF300 = @MAX985 ''')
@@ -269,7 +269,11 @@ lD: @P_i_0 = @P8_PP
                     with open("banned.txt", "a") as f:
                         f.write(f"\n{username}")
                 except Exception as eee:
-                    
+                    pass
+                    if "A wait of" in str(eee):
+                        break
+                    else:
+                    	pass
             else:
                 pass
             trys += 1
