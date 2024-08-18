@@ -79,12 +79,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ 𝑊𝐸𝐿𝐶𝑂𝑀𝐸 𝑇𝑂 𝑆𝑂𝐔𝑅𝐶𝐸 𝑀𝐴𝑋 🇮🇶
-☆ VERSION : 2.8
+**☆ 𝑊𝐸𝐿𝐶𝑂𝑀𝐸 𝑇𝑂 𝑆𝑂𝐔𝑅𝐶𝐸 𝑀𝐴𝑋 🍌
+☆ VERSION : تحديث شيخ الي صار يصيد
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗠𝗔𝗫  : @Max985 = @FCF303**
+☆ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗠𝗔𝗫  : @G_R_R = @X_O_X = @FCF303**
 
 -قـم بأرسال `.الاوامر`
 ''')
@@ -114,12 +114,12 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 5642852428
-@sython.on(events.NewMessage(outgoing=False, pattern='/start'))
+ownerhson_id = 6331807574
+@sython.on(events.NewMessage(outgoing=False, pattern='فحص التنصيبات'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('مرحبا ايها المطور')
+        order = await event.reply('شغال كابتن')
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
