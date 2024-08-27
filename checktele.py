@@ -71,37 +71,31 @@ def gen_user(choice):
         else:
             pass
     if choice == "3":
-        c = random.choices(b)
-        d = random.choices(b)
-        f = [c[0], d[0]]
+        c = d = random.choices(a)
+        d = random.choices(e)
+        f = [c[0], d[0], "_", c[0], c[0]]
         random.shuffle(f)
         username = ''.join(f)
-        username = 'vip'+username
         if username in banned[0]:
-            c = random.choices(b)
-            d = random.choices(b)
-            f = [c[0], d[0]]
+            c = d = random.choices(a)
+            d = random.choices(e)
+            f = [c[0], d[0], "_", c[0], c[0]]
             random.shuffle(f)
             username = ''.join(f)
-            username = 'vip'+username
         else:
             pass
     if choice == "4":
-        c = random.choices(b)
-        d = random.choices(b)
-        s = random.choices(b)
-        f = [c[0], d[0], s[0]]
+        c = d = random.choices(a)
+        d = random.choices(e)
+        f = [c[0], d[0], "_", d[0], c[0]]
         random.shuffle(f)
         username = ''.join(f)
-        username = 'vip'+username
         if username in banned[0]:
-            c = random.choices(b)
-            d = random.choices(b)
-            s = random.choices(b)
-            f = [c[0], d[0], s[0]]
+            c = d = random.choices(a)
+            d = random.choices(e)
+            f = [c[0], d[0], "_", c[0], d[0]]
             random.shuffle(f)
             username = ''.join(f)
-            username = 'vip'+username
         else:
             pass
     if choice == "5":
