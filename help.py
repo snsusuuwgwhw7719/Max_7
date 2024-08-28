@@ -151,8 +151,8 @@ sdxbot = sx5bot = s4dbot = s55bot = ss5bot
 8 : خماسي
 scooo
 
-9 : خماسي حرف
-s4sss = sxsss
+9 : سباعي حرفين
+nnuuuuu
 
 10 : خماسي حرفين
 sxxss = s55ss
