@@ -252,7 +252,7 @@ async def _(event):
 تم الصيد (@{username})
 ꩜ 𝙼𝙰𝚇 ↬  {trys}
 lD: Done hunt baby
-lD : @isAndreew
+lD : نتك زباله وتنقل معرف؟ ليش تصير زوج
     ''')
                     await event.client.send_message("@Ggggggooshbot", f''' ⌲ تم الصيد (@{username})
 ꩜ 𝙼𝙰𝚇 ↬  {trys}
